@@ -1,10 +1,10 @@
 {
   "author": {
-    "name": "Patrik Simek",
-    "url": "https://patriksimek.cz"
+    "name": "Harry Hong",
+    "url": "https://github.com/Harryhong"
   },
-  "name": "mssql",
-  "description": "Microsoft SQL Server client for Node.js.",
+  "name": "mssql-typeorm",
+  "description": "Microsoft SQL Server client for Node.js. Forked from mssql, added custom driver option for typeorm",
   "keywords": [
     "database",
     "mssql",
@@ -19,7 +19,8 @@
     "sqlserver",
     "msnodesqlv8",
     "azure",
-    "node-mssql"
+    "node-mssql",
+    "typeorm"
   ],
   "version": "9.1.1",
   "main": "index.js",

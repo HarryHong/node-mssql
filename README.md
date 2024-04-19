@@ -10,12 +10,12 @@ Supported TDS drivers:
 
 ## Installation
 
-    npm install mssql
+    npm install mssql-typeorm
 
 ## Short Example: Use Connect String
 
 ```javascript
-const sql = require('mssql')
+const sql = require('mssql-typeorm')
 
 (async () => {
     try {
@@ -51,6 +51,7 @@ const sqlConfig = {
     idleTimeoutMillis: 30000
   },
   options: {
+    driver: 'ODBC Driver 17 for SQL Server',
     encrypt: true, // for azure
     trustServerCertificate: false // change to true for local dev / self-signed certs
   }
